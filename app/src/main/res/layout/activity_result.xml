@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#181A20"
+    tools:context=".activities.ResultActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgTwin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/twin_celeb" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtYourTwin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38sp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/twin_found"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgTwin" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgUserImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="54sp"
+        android:scaleType="center"
+        android:background="@drawable/panel_user"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtYourTwin"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.41" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgTwinImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="54sp"
+        android:layout_marginEnd="16sp"
+        android:scaleType="center"
+        android:background="@drawable/panel_twin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.29"
+        app:layout_constraintTop_toBottomOf="@id/txtYourTwin"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.41" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtTwinName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38sp"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgUserImage" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/findAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginBottom="24sp"
+        android:background="@drawable/back_btn_find"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/find_again"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/lineBottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/lineBottom"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginBottom="16sp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/txtRate"
+        app:layout_constraintEnd_toEndOf="@id/txtRate"
+        app:layout_constraintStart_toStartOf="@id/txtRate" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32sp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/text_rate"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/celebrateImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtTwinName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/result_celebrate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

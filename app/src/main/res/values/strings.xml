@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Twin Celeb</string>
+    <string name="skip">SKIP</string>
+    <string name="next">Next</string>
+    <string name="str_description_first">Do you want to find your twin?</string>
+    <string name="str_description_second">Just send a selfie of yourself to see your twin.</string>
+
+    <string name="title_onboarding_1">Welcome to Onboarding App !</string>
+    <string name="description_onboarding_1">Here is an open-source project which shows sweet &amp; original onboarding ViewPagers that follows Material Design Guidelines</string>
+
+    <string name="title_onboarding_2">Try AirBnB Lottie</string>
+    <string name="description_onboarding_2">We use Lottie Animations on our Intro to make it interactive &amp; pleasant. Did you already tried it ? If no, let\'s start now. It\'s just awesome</string>
+
+    <string name="title_onboarding_3">Code beautiful apps</string>
+    <string name="description_onboarding_3">Our mission is to make useful &amp; subtle apps. We love help people to save time with open-source stuffs, but we also make life easier by creating new things. Good Coding!</string>
+
+    <string name="start_text_advice">By continuing on this application you agree to our Terms of Use and Privacy Policy</string>
+
+    <string name="start">start</string>
+    <!--    <string name="skip">Skip</string>-->
+    <string name="finish">finish</string>
+    <!--    <string name="next">next</string>-->
+    <string name="back">back</string>
+    <string name="text_main">Please choose whether the person who is your twin is male or female.</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="find">Find</string>
+    <string name="text_rate">Do you like this app? Rate it.</string>
+    <string name="find_again">find it again</string>
+
+    <string name="interstitial_ad_unit_id">ca-app-pub-4960215252946139/5235720703</string>
+    <string name="twin_found">Your twin was found</string>
+
+</resources>
