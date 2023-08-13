@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
 
     var genderValue: Int? = null
 
-    private var sdkKey: String = "MYAYGUMYUGFYAWGFVTZFYTZFSTYWCYGTNTQGFTWUAWRUUWPGQFUNPTYUGNANFTGASAPANTFAVTTTTACGWGGTSARTAYCFMACYQTFFTNRF"
+    private var sdkKey: String = "My Sdk Key"
     private var idvSDK = IdentityVerificationSDK()
     private var idvSDK_EventListener: IdentityVerificationSDK_EventListener =
         object : IdentityVerificationSDK_EventListener {
